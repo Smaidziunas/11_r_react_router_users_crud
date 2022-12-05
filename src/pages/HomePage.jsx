@@ -1,11 +1,4 @@
-import styled from 'styled-components';
-import { Section } from '../components/styled/UI.styled';
-
-const Title = styled.h1`
-  font-size: 3rem;
-  font-weight: normal;
-  margin-bottom: 0.4em;
-`;
+import { Section, Title } from '../components/styled/UI.styled';
 
 function HomePage(props) {
   return (
